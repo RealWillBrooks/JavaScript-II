@@ -56,7 +56,7 @@ function multiplyNums(x, y, cb) {
   return cb(result);
 }
 
-multiplyNums(10,20,function(product) {
+multiplyNums(100,200,function(product) {
   console.log(product);
 })
 function contains(item, list, cb) {
